@@ -356,7 +356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305260478}
   m_LocalRotation: {x: -0, y: -0.9999933, z: -0, w: -0.0036730224}
-  m_LocalPosition: {x: -0.6, y: 3.28, z: 1.98}
+  m_LocalPosition: {x: -0.6, y: 3.79, z: 1.98}
   m_LocalScale: {x: 4.8598523, y: 4.8598523, z: 6.3984814}
   m_Children: []
   m_Father: {fileID: 0}
@@ -933,6 +933,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rocketlauncher Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4540868838838110980, guid: 3d41d5f04d47b92438e2eb4f3c6afb45,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4540868838837819172, guid: 3d41d5f04d47b92438e2eb4f3c6afb45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1378,6 +1383,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7161063
       objectReference: {fileID: 0}
+    - target: {fileID: 630849714029101162, guid: da1af77c09893ec41b4abf593e9f9874,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 630849714029101166, guid: da1af77c09893ec41b4abf593e9f9874,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2039089859, guid: da1af77c09893ec41b4abf593e9f9874, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1389,16 +1404,6 @@ PrefabInstance:
     - target: {fileID: 2039089859, guid: da1af77c09893ec41b4abf593e9f9874, type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 630849714029101162, guid: da1af77c09893ec41b4abf593e9f9874,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 630849714029101166, guid: da1af77c09893ec41b4abf593e9f9874,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1af77c09893ec41b4abf593e9f9874, type: 3}
@@ -2112,7 +2117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2111642311
 Transform:
   m_ObjectHideFlags: 0

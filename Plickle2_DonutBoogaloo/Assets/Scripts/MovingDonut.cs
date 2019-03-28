@@ -21,4 +21,9 @@ public class MovingDonut : MonoBehaviour
         transform.position = initialPosition + Vector3.left * x;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Score");
+    }
+
 }
